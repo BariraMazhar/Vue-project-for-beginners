@@ -12,7 +12,7 @@
         class="input-form" 
         placeholder="Add item..." 
         v-model="userInput" @keyup.enter="addItem">
-        <button class="btn btn-success"
+        <button class="btn btn-add"
         @click="addItem">ADD</button>
       </div> 
       <div class="todo-list">
