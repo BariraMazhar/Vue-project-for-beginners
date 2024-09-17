@@ -1,0 +1,124 @@
+/* header */
+header {
+    background-color: rgb(48, 47, 47);
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding: 5px 0;
+  }
+  
+  /* Todo list */
+  #app {
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    margin: 20px auto;
+    max-width: 600px;
+  }
+  
+  .title {
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+  }
+  
+  hr {
+    border: 1px solid #c6bebe;
+  }
+  
+  .input {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .input-form {
+    flex: 1;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+  }
+  
+  .btn-success {
+    border-radius: 5px;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .todo-list {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  .list-header {
+    /* display: flex; */
+    background-color: #ffffff;
+    /* padding: 10px; */
+    color: #ccc;
+  }
+  
+  .list-item {
+    flex: 1;
+    padding: 10px;
+    font-size: 18px;
+  }
+  
+  .list-body {
+    /* border: 1px solid #ccc; */
+    border-radius: 5px;
+    overflow: hidden;
+    display: grid;
+  }
+  
+  .row {
+    display: flex;
+    /* border-top: 1px solid #ccc; */
+  }
+  
+  .even-row {
+    background-color: #f9f9f9;
+  }
+  
+  .completed {
+    text-decoration: line-through;
+  }
+  
+  .completed-cell {
+    color: #888;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-completed {
+    background-color: #007bff;
+    color: white;
+    border: none;
+  }
+  
+  .btn-edit {
+    background-color: #17a2b8;
+    color: white;
+    border: none;
+  }
+  
+  .btn-delete {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+  }
+  button{
+  margin-left:3px;
+  }
+  
