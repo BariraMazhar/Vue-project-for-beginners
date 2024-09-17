@@ -45,7 +45,7 @@ header {
     margin-right: 10px;
   }
   
-  .btn-add {
+  .add-btn {
     border-radius: 5px;
     padding: 10px 20px;
     background-color: #28a745;
@@ -101,19 +101,19 @@ header {
     cursor: pointer;
   }
   
-  .btn-completed {
+  .completed-btn {
     background-color: #007bff;
     color: white;
     border: none;
   }
   
-  .btn-edit {
+  .edit-btn {
     background-color: #17a2b8;
     color: white;
     border: none;
   }
   
-  .btn-delete {
+  .delete-btn {
     background-color: #dc3545;
     color: white;
     border: none;

@@ -12,7 +12,7 @@
         class="input-form" 
         placeholder="Add item..." 
         v-model="userInput" @keyup.enter="addItem">
-        <button class="btn btn-add"
+        <button class="btn add-btn"
         @click="addItem">ADD</button>
       </div> 
       <div class="todo-list">
@@ -26,13 +26,13 @@
             <div class="list-item" :class="{ 'completed-cell':
             item.completed }">{{ item.value }}</div>
             <div class="list-item">
-              <button class="btn btn-completed"
+              <button class="btn complete-btn"
               @click="toggleCompleted(index)">
                 {{ item.completed ? 'Undo' : 'Completed' }}
               </button>
-              <button class="btn btn-edit" 
+              <button class="btn edit-btn" 
               @click="editItem(index)">Edit</button>
-              <button class="btn btn-delete"
+              <button class="btn delete-btn"
               @click="deleteItem(index)">Delete</button>
             </div>
           </div>
