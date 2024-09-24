@@ -101,7 +101,7 @@ header {
     cursor: pointer;
   }
   
-  .completed-btn {
+  .complete-btn {
     background-color: #007bff;
     color: white;
     border: none;
